@@ -15,5 +15,5 @@ namespace rParcial.Data
         {
             base.OnConfiguring(optionsBuilder.UseSqlServer(@"Server=.\SqlExpress;Database=ParcialDb;trusted_Connection =true"));
         }
-    }
+    } 
 }
